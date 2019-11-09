@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="crtvn:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>crtvn</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="crtvn.war">
+      <element id="artifact" artifact-name="crtvn:war exploded" />
+    </root>
+  </artifact>
+</component>
