@@ -84,7 +84,7 @@ public class ExaminationServiceImpl implements IExaminationService {
 	
 	@Override
 	public Map<String,String> automatic(ExaminationDTO examinationDTO) throws Exception {
-		Map<String,String> result = new HashMap<>();
+		Map<String,String> result = new HashMap<String, String>();
 		Map<String, Object> params = new HashMap<String, Object>();
 
 		HttpSession session = request.getSession();
